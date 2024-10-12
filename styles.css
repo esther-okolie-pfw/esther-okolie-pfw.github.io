@@ -204,7 +204,7 @@ section h2 {
     background-color: #f3f4f6;
 }
 
-.project-grid {
+/* .project-grid {
     display: flex;
     gap: 2rem;
     justify-content: space-around;
@@ -219,7 +219,28 @@ section h2 {
     text-align: center;
     flex: 1;
     min-width: 300px;
+} */
+
+.project-grid {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
+
+.project-card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex-basis: calc(50% - 2rem); /* Ensures 2 cards per row */
+    max-width: 48%; /* Prevents cards from getting too large */
+    min-width: 300px; /* Maintains a minimum width */
+    box-sizing: border-box; /* Includes padding in width calculation */
+}
+
+
 
 .project-card h3 {
     font-size: 1.4rem;
