@@ -48,5 +48,5 @@ I'm always looking to expand my knowledge and work on challenging projects. I lo
 ## 📫 Get in Touch
 - **Email**: etther.eo@gmail.com
 - **LinkedIn**: [LinkedIn Profile](https://linkedin.com/in/esther-okolie)
-- **GitHub**: [github.com/esther](https://github.com/esther-okolie-pfw)
+- **GitHub**: [GitHub](https://github.com/esther-okolie-pfw)
 
