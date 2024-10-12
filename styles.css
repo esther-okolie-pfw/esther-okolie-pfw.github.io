@@ -8,7 +8,7 @@ body {
 }
 
 h1, h2, h3 {
-    color: #1e40af;
+    color: #0f766e; /* Dark Green */
 }
 
 .container {
@@ -18,7 +18,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: #1e40af;
+    color: #0f766e; /* Dark Green */
     text-decoration: none;
 }
 
@@ -27,21 +27,22 @@ a:hover {
 }
 
 .btn {
-    background-color: #1e40af;
+    background-color: #0f766e; /* Dark Green */
     color: #fff;
     padding: 0.8rem 1.5rem;
-    border-radius: 5px;
+    border-radius: 8px;
     font-weight: bold;
     display: inline-block;
+    transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #1e3a8a;
+    background-color: #065f46; /* Darker Green */
 }
 
 /* Hero Section */
 .hero {
-    background-color: #f9fafb;
+    background-color: #f0fdf4; /* Light Green Background */
     padding: 4rem 0;
     text-align: center;
 }
@@ -65,8 +66,8 @@ a:hover {
 
 /* Navbar Styles */
 .navbar {
-    background: linear-gradient(90deg, #1e3a8a, #2563eb);
-    padding: 0.8rem 0; /* Smaller padding */
+    background: linear-gradient(90deg, #065f46, #10b981); /* Green gradient */
+    padding: 0.8rem 0;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -74,11 +75,11 @@ a:hover {
 }
 
 .navbar .container {
-    max-width: 1200px; /* Restrict the container width */
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center align the items */
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
@@ -88,7 +89,7 @@ a:hover {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    margin-bottom: 0.5rem; /* Add space below the logo */
+    margin-bottom: 0.5rem;
 }
 
 .navbar-links {
@@ -113,7 +114,7 @@ a:hover {
 
 .navbar-links li a:hover,
 .navbar-links li a:focus {
-    color: #ffeb3b; /* Gold highlight on hover */
+    color: #facc15; /* Gold highlight on hover */
 }
 
 .navbar-links li a::after {
@@ -121,7 +122,7 @@ a:hover {
     display: block;
     width: 0;
     height: 2px;
-    background-color: #ffeb3b; /* Gold underline effect */
+    background-color: #facc15; /* Gold underline effect */
     transition: width 0.3s ease;
 }
 
@@ -132,13 +133,12 @@ a:hover {
 }
 
 .navbar-links li a.active {
-    color: #ffeb3b;
+    color: #facc15;
 }
 
 .navbar-links li a.active::after {
     width: 100%;
 }
-
 
 @media (max-width: 768px) {
     .navbar-links {
@@ -146,9 +146,6 @@ a:hover {
         gap: 1rem;
     }
 }
-
-
-
 
 /* Section Titles */
 section h2 {
@@ -160,12 +157,12 @@ section h2 {
 /* About Section */
 #about {
     padding: 3rem 0;
-    background-color: #f9fafb;
+    background-color: #f0fdf4;
 }
 
 /* Skills Section */
 .section-dark {
-    background-color: #e5e7eb;
+    background-color: #d1fae5; /* Soft Green */
     padding: 3rem 0;
 }
 
@@ -189,7 +186,7 @@ section h2 {
 
 .skill-card h3 {
     font-size: 1.3rem;
-    color: #1e40af;
+    color: #0f766e;
     margin-bottom: 0.5rem;
 }
 
@@ -201,25 +198,8 @@ section h2 {
 /* Projects Section */
 .projects-section {
     padding: 3rem 0;
-    background-color: #f3f4f6;
+    background-color: #e0f2f1; /* Light Green Background */
 }
-
-/* .project-grid {
-    display: flex;
-    gap: 2rem;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.project-card {
-    background-color: #fff;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    flex: 1;
-    min-width: 300px;
-} */
 
 .project-grid {
     display: flex;
@@ -236,11 +216,9 @@ section h2 {
     text-align: center;
     flex-basis: calc(50% - 2rem); /* Ensures 2 cards per row */
     max-width: 48%; /* Prevents cards from getting too large */
-    min-width: 300px; /* Maintains a minimum width */
-    box-sizing: border-box; /* Includes padding in width calculation */
+    min-width: 300px;
+    box-sizing: border-box;
 }
-
-
 
 .project-card h3 {
     font-size: 1.4rem;
@@ -256,7 +234,7 @@ section h2 {
 /* Experience Section */
 #experience {
     padding: 3rem 0;
-    background-color: #f9fafb;
+    background-color: #f0fdf4;
 }
 
 .experience-card {
@@ -281,7 +259,7 @@ section h2 {
 
 /* Contact Section */
 .contact-section {
-    background-color: #e5e7eb;
+    background-color: #d1fae5;
     padding: 3rem 0;
     text-align: center;
 }
@@ -296,7 +274,7 @@ section h2 {
 
 /* Footer */
 footer {
-    background-color: #1e40af;
+    background-color: #0f766e;
     padding: 1.5rem 0;
     text-align: center;
     color: #fff;
